@@ -1,0 +1,76 @@
+/*
+   background: rgb(255,255,255);
+   background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 25%,
+   rgba(247,190,190,1) 75%, rgba(237,139,139,1) 100%);
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 0;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.hero__mobile {
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 1.5em;
+    left: 8%;
+}
+
+.text {
+    width: 80%;
+    align-self: center;
+    text-align: center;
+}
+
+.slogan {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-top: 3.75rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slogan span {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+}
+
+.paragraph {
+    color: hsl(0, 36%, 70%);
+    line-height: 170%;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+@media (min-width: 376px) {
+
+    .hero__mobile {
+        width: 100%;
+    }
+
+}
