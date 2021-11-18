@@ -11,6 +11,7 @@
 }
 
 body {
+    background-color:  hsl(0, 100%, 98%);
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -66,6 +67,41 @@ img {
     text-align: center;
 }
 
+.custom-search {
+    position: relative;
+    width: 80%;
+    align-self: center;
+}
+.custom-search-input {
+    background-color:  hsl(0, 100%, 98%);
+    color: hsl(0, 36%, 70%);
+    width: 100%;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 100px;
+    padding: 12px 0 12px 20px;
+    outline: none;
+}
+
+::placeholder {
+    color: hsla(0, 36%, 70%, 0.5);
+    font-size: 13px;
+}
+
+.custom-search-button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 0;
+    background: linear-gradient(135deg, rgba(247,190,190,1) 0%, rgba(247,190,190,1) 25%,
+    rgba(237,139,139,1) 75%, rgba(237,139,139,1) 100%);
+    margin: 0;
+    padding: 20px 25px;
+    border-radius: 100px;
+    z-index: 2;
+}
 
 @media (min-width: 376px) {
 
