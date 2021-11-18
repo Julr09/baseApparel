@@ -36,7 +36,6 @@ img {
 .text {
     width: 80%;
     align-self: center;
-    text-align: center;
 }
 
 .slogan {
@@ -132,6 +131,7 @@ img {
     }
 
     .wrapper {
+        position: relative;
         width: 50%;
     }
 
@@ -148,8 +148,15 @@ img {
     }
 
     .logo {
-        left: 17%;
+        left: 0;
+        top: -4em;
+    }
+
+    .container {
+        background: url("images/bg-pattern-desktop.svg") no-repeat -35% 100%;
+        background-size: cover;
     }
 
 }
+
 
