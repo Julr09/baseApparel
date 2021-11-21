@@ -122,10 +122,6 @@ img {
 }
 
 @media (min-width: 1025px) {
-    body {
-        background-color: white;
-    }
-
     .container {
         flex-direction: row;
         margin: 0;
