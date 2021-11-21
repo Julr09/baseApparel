@@ -34,8 +34,9 @@ img {
 }
 
 .text {
-    width: 80%;
     align-self: center;
+    width: 80%;
+
 }
 
 .slogan {
@@ -98,6 +99,22 @@ img {
     cursor: pointer;
 }
 
+.error-icon {
+    position: absolute;
+    top: 23%;
+    right: 5em;
+    visibility: hidden;
+}
+
+.error-message {
+
+    color: hsl(0, 93%, 68%);
+    position: absolute;
+    bottom: -60%;
+    left: 1.5em;
+    visibility: hidden;
+}
+
 @media (min-width: 376px) {
     .hero__mobile {
         width: 100%;
@@ -105,6 +122,10 @@ img {
 }
 
 @media (min-width: 1025px) {
+    body {
+        background-color: white;
+    }
+
     .container {
         flex-direction: row;
         margin: 0;
@@ -152,9 +173,15 @@ img {
         top: -4em;
     }
 
-    .container {
-        background: url("images/bg-pattern-desktop.svg") no-repeat -35% 100%;
-        background-size: cover;
+    .error-icon {
+        top: 30%;
+        right: 7em;
+    }
+
+    .error-message {
+        position: absolute;
+        bottom: -50%;
+        left: 2em;
     }
 
 }

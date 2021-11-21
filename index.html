@@ -33,18 +33,21 @@
                     below to stay
                     up-to-date with announcements and our launch deals.</p>
                 <div class="form">
-                    <label for="email">
-                        <input type="email" id="email" name="email" class="input"
-                               placeholder="Email Address                ">
-                    </label>
-                    <button id="button" class="button" type="submit">
-                        <img src="images/icon-arrow.svg" alt="arrow">
-                    </button>
+                    <form action="" id="form">
+                        <label for="email">
+                            <input type="email" id="email" name="email" class="input" placeholder="Email Address">
+                        </label>
+                        <button id="button" class="button" type="submit">
+                            <img src="images/icon-arrow.svg" alt="arrow">
+                        </button>
+                    </form>
+                    <img id="icon" class="error-icon" src="images/icon-error.svg" alt="error">
+                    <span id="message" class="error-message">Please provide a valid email</span>
                 </div>
             </div>
         </div>
-
     </div>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
